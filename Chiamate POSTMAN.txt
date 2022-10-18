@@ -1,0 +1,48 @@
+Body Aggiunta Customer:
+{
+	"companyName" : "AAA",
+	"vatNumber": "AAA",
+	"email": "AAA",
+	"insertDate":"2022-12-31",
+	"lastContactDay":"2022-12-31",
+	"annualTurnover": 999,
+	"cem":"AAA",
+	"phone":"AAA",
+	"emailContact":"AAA",
+	"firstName":"AAA",
+	"lastName":"AAA",
+	"phoneContact":"AAA",
+	"headOffice":{
+		"via": "AAA",
+		"streetNumber": "AAA",
+		"location": "AAA",
+		"postcode": "AAA",
+		"idM": 200
+	},
+	"registeredOffice" : {
+		"via": "AAA",
+		"streetNumber": "AAA",
+		"location": "AAA",
+		"postcode": "AAA",
+		"idM": 200
+	},
+	"invoices":null,
+	"type": "SRL"
+}
+
+Body Aggiunta HeadQuarter:
+{
+	"via": "AAA",
+	"streetNumber": "AAA",
+	 "location": "AAA",
+	 "postcode": "AAA",
+	"idM": 200
+}
+
+Body Aggiunta Invoice:
+{
+	"insertDate": "2022-12-31",
+	"amount": 999,
+	 "number": 1,
+	 "status": "PAID"
+}
